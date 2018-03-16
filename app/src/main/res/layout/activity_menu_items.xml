@@ -9,45 +9,169 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginRight="12dp"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginTop="16dp"
         android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="@+id/multiAutoCompleteTextView"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
         app:layout_constraintEnd_toStartOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/pizza" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="27dp"
-        android:layout_marginEnd="87dp"
-        android:layout_marginRight="87dp"
-        android:layout_marginTop="31dp"
+        android:layout_width="0dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginTop="16dp"
         android:text="House Special"
         android:textAppearance="@android:style/TextAppearance.Material.Large"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <MultiAutoCompleteTextView
-        android:id="@+id/multiAutoCompleteTextView"
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="9dp"
+        android:text="Juno's favourite with Cheese, Garlic and Capsicum."
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="26dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toStartOf="@+id/textView13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/flamma" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="69dp"
+        android:text="Flamma Paneer"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="0dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="1dp"
+        android:text="Spicy blend of cheese, onions and chilli flakes topped with basil."
+        android:textColor="@android:color/background_dark"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="9dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toStartOf="@+id/textView15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/jalepeno" />
+
+    <TextView
+        android:id="@+id/textView15"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="23dp"
-        android:text="Juno's favourite with Cheese, Garlic and Capsicum"
-        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
-        android:textStyle="italic"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="2dp"
+        android:text="Jalapeno Pizza"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/textView2" />
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="0dp"
+        android:layout_height="76dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginStart="11dp"
+        android:text="A mildly spicy pizza with garlic cream cheese, jalapenos and golden crunchy bread crumbs."
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="@+id/textView15"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="56dp"
+        android:layout_marginEnd="13dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/paneerpizza" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="102dp"
+        android:text="P 'n' P Pizza"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="194dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="66dp"
+        android:layout_marginStart="8dp"
+        android:text="Paneer 'n' Pepper, green,yellow and red"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
 </android.support.constraint.ConstraintLayout>

@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="serif"
-        android:text="Home made since 1977."
+        android:text="Home made since 1974."
         android:textStyle="italic" />
 
 </LinearLayout>
