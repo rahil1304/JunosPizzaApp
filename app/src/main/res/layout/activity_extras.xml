@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rahilsarvaiya.mypizzaapp.Extras">
+
+    <Button
+        android:id="@+id/myButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="131dp"
+        android:layout_height="48dp"
+        android:background="@drawable/button2"
+        android:text="Play Video"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <view
+        android:id="@+id/youtube_view"
+        class="com.google.android.youtube.player.internal.n"
+        id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="236dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="68dp" />
+</android.support.constraint.ConstraintLayout>

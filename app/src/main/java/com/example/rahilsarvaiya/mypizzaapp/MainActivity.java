@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity
 
             } else if (id == R.id.extras) {
 
-                Intent intent=new Intent(MainActivity.this, extra.class);
+                Intent intent=new Intent(MainActivity.this, Extras.class);
                 startActivity(intent);
             } else if (id == R.id.contact) {
 
