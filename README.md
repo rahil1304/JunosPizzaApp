@@ -1,4 +1,4 @@
 # JunosPizzaApp
-Demo App
 This is a pizza application that displays the menu and accordingly you can order your food. There is a contact activity that displays the
-information of the company and their location and well as a rating bar to rate the users experience. I am yet working on this application and making changes anf updating it.
+information of the company and their location. I have added a Google maps API to the location so that the location of Junos Pizza will open on Google Maps. A rating bar to rate the users experience is also provided. I am yet working on this application updating it.
+Kindly open the Screenshots folder to view the screenshots of the application.
